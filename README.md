@@ -1,14 +1,18 @@
 # pr-playbook
 
+---
+
 [![license](https://img.shields.io/github/license/alyekypo/pr-playbook?style=flat-square&color=blue)](LICENSE)
 [![last commit](https://img.shields.io/github/last-commit/alyekypo/pr-playbook?style=flat-square)](https://github.com/alyekypo/pr-playbook/commits/main)
 [![repo size](https://img.shields.io/github/repo-size/alyekypo/pr-playbook?style=flat-square)](https://github.com/alyekypo/pr-playbook)
 [![stars](https://img.shields.io/github/stars/alyekypo/pr-playbook?style=flat-square)](https://github.com/alyekypo/pr-playbook/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/alyekypo/pr-playbook/pulls)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow?style=flat-square)](https://www.conventionalcommits.org/en/v1.0.0/)
-[![Markdown](https://img.shields.io/badge/docs-Markdown-000000?style=flat-square&logo=markdown&logoColor=white)](https://github.com/alyekypo/pr-playbook)
+[![markup](https://img.shields.io/badge/markup-GFM-000000?style=flat-square&logo=github&logoColor=white)](https://github.github.com/gfm/)
 
 A reference for opening pull requests that a maintainer can merge without a round trip: the exact section order, the evidence each section has to carry, and what to leave out. Everything here was applied to a real upstream PR, which is reproduced verbatim in [Worked example](#worked-example).
+
+---
 
 ## Contents
 
