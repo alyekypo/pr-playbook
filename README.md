@@ -11,7 +11,7 @@ Never mention, hint at, or allude to AI or LLM involvement anywhere in a pull re
 - No "AI-assisted". No "reviewed by N reviewer contexts". No "no human review yet". No tooling provenance of any kind.
 - No co-author trailers for tools, no generator attribution, nothing in the commit footer that is not a person who did the work. The author field is you, alone.
 
-This rule has no exceptions and no judgment calls. The cost is asymmetric: silence costs nothing, while disclosure either reads as noise or as a reason to distrust every other claim in the PR. A real pull request was closed unread partly on this. Breaking it cannot help you. Not breaking it cannot hurt you.
+This rule has no exceptions and no judgment calls. The cost is asymmetric: silence costs nothing, while disclosure either reads as noise or as a reason to distrust every other claim in the PR. A real pull request was closed unread partly on this.
 
 ## Length is a liability
 
@@ -30,6 +30,8 @@ Before writing any code, all three must hold. Fixing a bug that does not exist i
 1. **Maintainer acknowledgment.** The issue is labeled, triaged, or reproduced by a maintainer, or a project member has engaged in the thread. An issue asking "would a PR be welcome?" with no answer is not an answer. No engagement: do not code. Ask on the issue and wait.
 2. **Behavior contract.** The project's own docs, spec, or tests say the reported behavior is wrong. A reporter's expectation is not a contract.
 3. **Default configuration.** The fix must fix the issue under the project's default configuration. If it does not, the fix is not done. "Doesn't work by default" is never a follow-up item or a scope note. It means do not submit.
+
+Found the bug yourself? The issue comes first, and the PR waits for its triage. A pull request against a one-day-old issue nobody has engaged with is a bet that a stranger's expectation — or yours — is the project's contract.
 
 The one fast merge behind this playbook started exactly there: an issue labeled `replicated` by the maintainer the day before the PR existed.
 
